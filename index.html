@@ -104,6 +104,49 @@
       text-decoration: none;
       margin: 0 10px;
     }
+
+     /* Additional CSS for enhanced styling */
+     @media (max-width: 600px) {
+      /* Styles for mobile devices */
+      header {
+        padding: 20px;
+      }
+      
+      img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+      }
+      
+      main {
+        padding: 20px;
+      }
+    }
+    
+    @media (min-width: 601px) {
+      /* Styles for desktop devices */
+      header {
+        padding: 30px;
+      }
+      
+      img {
+        width: 80%;
+        max-width: 600px;
+        height: auto;
+      }
+      
+      main {
+        padding: 50px;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+        /* Added CSS for wrapping content with borders and padding */
+        .content-wrapper {
+      border: 3px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+    }
+
   </style>
 </head>
 
@@ -124,23 +167,24 @@
   
   <main>
     <!-- Image and Description -->
-    <img src="Bermuda-Motors.jpg" alt="Mechanics Workshop" width="400" height="300">
-    <h2>About Our Mechanics Workshop</h2>
-    <p>
+    <div class="content-wrapper">
+      <img src="Bermuda-Motors.jpg" alt="Mechanics Workshop">
+      <h2>About Our Mechanics Workshop</h2>
+      <p>
         Welcome to Bermuda Motors, your trusted local business with a reputable name and decades of experience in all aspects of automobile repairs.
         Our dedicated team of expert mechanics is committed to providing top-notch service and ensuring the satisfaction of our valued customers.
         Whether it's routine maintenance, major repairs, or diagnostics, you can trust us to handle it with precision and care.
         We take pride in our expertise and keep up with the latest industry advancements to offer reliable solutions for all your automotive needs.
         At Bermuda Motors, your vehicle is in safe hands!
-    </p>
+      </p>
+    </div>
   </main>
   
   <footer>
+    <!-- Footer with contact links -->
     <div class="footer-links">
-      <!-- Footer with contact links -->
       <a href="tel:033389256">Call Us</a>
       <a href="mailto:BermudaMotors@outlook.com">Email Us</a>
-      <br>
     </div>
     <p>Corner Wrights Rd and Hilmorton St, Addington, Christchurch</p>
     <p>Phone: 03 3389256</p>
