@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bermuda Motors</title>
+  <style>
+    /* CSS for dropdown menu */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    
+    /* CSS for the page layout */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      padding: 10px;
+      background-image: url(race-flag.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      color: #fff;
+    }
+    
+    h1 {
+      text-align: center;
+      margin: 0;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    p {
+      margin: 0;
+    }
+    
+    img {
+      display: block;
+      margin: 20px auto;
+      border: 3px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    .dropdown {
+      text-align: left;
+    }
+    
+    .dropbtn {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    
+    .dropdown-content a {
+      color: #333;
+      text-decoration: none;
+      display: block;
+      padding: 10px;
+      background-color: #f9f9f9;
+    }
+    
+    .dropdown-content a:hover {
+      background-color: #e0e0e0;
+    }
+    
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    .footer-links a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- Menu at top left -->
+    <div class="dropdown">
+      <button class="dropbtn">Menu</button>
+      <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <h1>Bermuda Motors</h1>
+  </header>
+  
+  <main>
+    <!-- Image and Description -->
+    <img src="mechanics-workshop.jpg" alt="Mechanics Workshop" width="400" height="300">
+    <h2>About Our Mechanics Workshop</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida bibendum tellus, at lacinia libero feugiat et.
+      Fusce nec enim sapien. Nullam eu efficitur risus. Donec in nisi at nisi rutrum commodo id eu sem.
+      Integer sagittis felis vel est consectetur, vel finibus leo interdum. Aenean iaculis nulla non lacus facilisis, ac luctus tortor efficitur.
+    </p>
+  </main>
+  
+  <footer>
+    <div class="footer-links">
+      <!-- Footer with contact links -->
+      <a href="tel:033389256">Call Us</a>
+      <a href="mailto:info@bermudamotors.com">Email Us</a>
+    </div>
+    <p>Address: Corner Wrights Rd and Hilmorton St, Addington, Christchurch</p>
+    <p>Phone: 03 3389256</p>
+  </footer>
+</body>
+
+</html>
